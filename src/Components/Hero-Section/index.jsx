@@ -69,7 +69,7 @@ return(
     <>
     <div id="main">
         <div id="page">
-          <h1 ref={h1Ref}>Change <br/>the course</h1>
+          <h1 ref={h1Ref}>Change <br/>the course.</h1>
         
           <div id="video-container" ref={videoContainerRef}>
             <div id="play" ref={playBtnRef}>PLAY</div>
