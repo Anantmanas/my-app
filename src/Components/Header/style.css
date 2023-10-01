@@ -7,3 +7,113 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+#nav{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#nav-icons{
+    height: 82px;
+    overflow: hidden;
+}
+
+#nav-icons svg{
+ display: block;
+}
+
+
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#links{
+    padding: 10px;
+}
+
+#links a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    margin:0 20px;
+}
+#icons{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #f7f7f7;
+}
+#icons i{
+    font-size: 18px;
+    margin:0 20px;
+    font-weight: 100;
+}
+
+
+@media (max-width:600px) {
+    #nav{
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        padding: 12px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    #nav-icons{
+        height: 82px;
+        overflow: hidden;
+    }
+    
+    #nav-icons svg{
+     display: block;
+     height: 82px;
+     width: 80px;
+
+    }
+
+   #nav #svg2{
+        height: 30px;
+        margin-left: -20px;
+    }
+    
+    #nav2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    #links{
+        padding: 10px;
+        display: none;
+    }
+    
+    #links a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        font-size: 14px;
+        margin:0 20px;
+    }
+    #icons{
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #f7f7f7;
+    }
+    #icons i{
+        font-size: 18px;
+        margin:0 20px;
+        font-weight: 100;
+    }
+}
